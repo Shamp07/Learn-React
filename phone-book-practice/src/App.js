@@ -86,7 +86,12 @@ class App extends Component {
         <hr />
         <div className="input-group" style={inputGroup}>
           <div className="input-group-prepend">
-            <select className="custom-select" onChange={this.handleChange} name="filterDiv" style={selectStyle}>
+            <select
+              className="custom-select"
+              onChange={this.handleChange}
+              name="filterDiv"
+              style={selectStyle}
+            >
               <option value="all">통합검색</option>
               <option value="name">이름</option>
               <option value="phone">전화번호</option>

@@ -6,8 +6,15 @@ class PhoneInfoList extends Component {
         data : []
     }
 
-    shouldComponentUpdate(prevProps,prevState){
-        return prevProps.data !== this.props.data
+     shouldComponentUpdate(nextProps,nextState){
+    //     console.log("now");
+    //     console.log(this.props.data)
+    //     console.log("next");
+    //     console.log(nextProps.data)
+
+    //     console.log(nextProps.data !== this.props.data)
+    //     // return prevProps.data !== this.props.data
+        return true;
     }
 
     render() {
